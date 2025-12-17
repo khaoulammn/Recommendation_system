@@ -41,7 +41,7 @@ def recommend_friends_jaccard(G, user_id, top_n=5):
             union = len(neighbors_node | set(G.neighbors(user_id)))
             if union > 0:
                 jaccard_score = intersection / union
-                if jaccard_score > 0:
+                if jaccard_score > 0.2:
                     recommendations[node] = jaccard_score
 
     sorted_recommendations = sorted(
