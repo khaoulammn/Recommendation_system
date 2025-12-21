@@ -1,4 +1,4 @@
-**Recommendation system**
+## **Recommendation system**
 
 ##  Project Objective
 This project aims to develop a **simplified social network** integrating a **recommendation system**.
